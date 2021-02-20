@@ -1,0 +1,14 @@
+
+.cursor-blink {
+	color: #2E3D48;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+}
